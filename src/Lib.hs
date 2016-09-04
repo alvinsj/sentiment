@@ -1,7 +1,9 @@
 module Lib
     (
     sentiment',
-    sentiment''
+    sentiment'',
+    Sentiment,
+    score
     ) where
 
 import qualified Data.Text as T
